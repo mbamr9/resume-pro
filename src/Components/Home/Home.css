@@ -1,0 +1,163 @@
+.colz{
+    margin-top: 3rem;
+}
+
+.colz .colz_icon i{
+    color: aliceblue;
+    padding: 8px;
+    padding-left: 0px;
+
+}
+.colz .colz_icon i:hover{
+    transform:scale(1.5)
+}
+
+.home_container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    height:10%;
+    min-height: fit-content;
+    justify-content: center;
+    background-color:#161E54;
+    
+}
+.home_parent{
+    display: flex;
+    align-items: center;
+    color: aliceblue;
+
+}
+
+.profile_details_name{
+    font-size: 24px;
+    font-family: "Poppins SemiBold";
+}
+
+.profile_details_roles{
+    display: flex;
+    flex-direction: column;
+    margin: 14px 0 24px 0;
+}
+
+.profile_details_roles h1{
+    margin-top: -40px;
+    font-size: 40px;
+    font-family: cursive;
+}
+
+.primary_text{
+
+    padding-top: 20px;
+    color:aliceblue;
+}
+
+.highlighted_text{
+    color: rgb(226, 98, 12);
+}
+.profile_role_tagline{
+    font-size: 19px;
+    margin:  5px 0 0 0 ;
+    font-family:"Poppins Light" ;
+}
+.profile_picture{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 1px 0px 0px aliceblue;
+    border-radius: 50%;
+    height: 350px;
+    width: 350px;
+    margin: 0 0 0 100px;
+}
+.profile_picture_background{
+    height: 92%;
+    width: 92%;
+    background-image: url('../../assets//Home/img2.jpg');
+    background-size: cover;
+    border-radius: 50%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.home_details{
+    display: flex;
+   
+}
+
+.profile_picture_background:hover{
+    transform: scale(1.07);
+    transition: 1s ease-out;
+}
+
+
+
+@media screen  and (max-width:1110px){
+    .profile_picture{
+        margin:0 0px 0 80px;
+    }
+    .profile_details_name{
+        font-size: 20px;
+    }
+    .profile_details_roles .primary_text{
+        font-size: 12px;
+
+    }
+    .btn{
+        width: 120px; 
+        padding: 11px 0;
+        z-index: 700;
+
+    }
+   }
+    
+    @media screen and (max-width:910px){
+        .profile_picture{
+            height: 320px;
+            width: 320px;
+            margin: 0 0 0 4px ;
+
+        }
+    }
+
+    @media screen and (max-width:810px) {
+        .profile_picture{
+            margin: 0 !important;
+            height: 270px;
+            width: 270px;
+        }
+        .home_details{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column-reverse;
+            margin: 40 0 0 0 ;
+        }
+        
+         .highlighted_btn{
+             margin: 0 !important;
+
+
+         }
+          .profile_details_roles{
+              text-align: center;
+          }
+          .colz{
+              margin-top: 2rem;
+          }
+          .primary_text{
+              margin-top: 1rem;
+          }
+          .styles_typicalWrapper__1_Uvh{
+              margin: 0;
+              padding: 0;
+          }
+        
+    }
+
+  .back_img{
+      width: 100%;
+      height: 10rem;
+      background-image: url('../../assets//Home/wave.png');
+      
+  }
